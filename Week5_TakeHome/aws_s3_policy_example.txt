@@ -1,0 +1,19 @@
+{
+    "Version": "2012-10-17",
+    "Id": "Policy1542776505300",
+    "Statement": [
+        {
+            "Sid": "Stmt1542776498150",
+            "Effect": "Allow",
+            "Principal":  {"CanonicalUser":"CANONICAL ID"},
+            "Action": [
+                "s3:GetObject",
+                "s3:ListBucket"
+            ],
+            "Resource": [
+                "arn:aws:s3:::msds694/*",
+                "arn:aws:s3::: msds694"
+            ]
+        }
+    ]
+}
